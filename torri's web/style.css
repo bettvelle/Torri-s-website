@@ -1,0 +1,136 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    
+    color: #640404;
+    line-height: 100px;
+}
+
+
+.header {
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG-20250129-WA0083.jpg);
+	background-position: center;
+	background-size: auto;
+    text-align: center;
+}
+.header h1 {
+    margin-bottom: 10px;
+}
+.header nav ul {
+    list-style: none;
+    padding:0px;
+	display: flex;
+	margin: 20px 0px;
+}
+.header nav ul li {
+    display: flex;
+}
+.header nav ul li a {
+	padding: 12px 10px;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 25px;
+	color: #df0e0e;
+    text-decoration: none;
+	transition: all .2s ease;
+	text-align: center;
+}
+.header nav ul li a:hover{
+	color: #fff;
+	width: 0;
+	transform: scale(1.2);
+}
+
+
+.services {
+    padding: 150px;
+    text-align: center;
+    background-color: #fff;
+}
+.services h2 {
+	font-size: 50px;
+	font-weight: bold;
+}
+.service h3{
+    font-size: 15px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+    background-color: #eee;
+    padding: 20px;
+    margin: 10px;
+    width: 350px;
+	height: 350px;
+	border: 1px solid blue;
+    border-radius: 20px;
+	align-items: center;
+	text-align: justify;
+	background-size: 100% 200%;
+	transition: all .1s;
+	background: linear-gradient(to top,rgba(255,45,45)50%, 50%);
+}
+.card:hover{
+	border: none;
+	box-shadow: 0 0 0 20px rgba (255,45,45);
+
+}
+
+
+.projects {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.projects h2 {
+    margin-bottom: 20px;
+}
+.project-gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+
+.contact {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact input, .contact textarea, .contact button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
